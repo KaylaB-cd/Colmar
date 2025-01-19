@@ -30,3 +30,17 @@ header img {
     font-weight: bold;
     color: #8A97A8;
 }
+
+nav {
+    padding-right: 3%;
+    align-self: center;
+    display: flex;
+}
+
+.desktop {
+    display: inline-block;
+}
+
+.mobile {
+    display: none;
+}
