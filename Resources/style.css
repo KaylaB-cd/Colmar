@@ -187,3 +187,31 @@ nav {
 }
 
 /*Small containers*/
+
+.stacked-content-box {
+    display: flex;
+    flex-flow: column;
+    vertical-align: top;
+    margin-top: 1rem;
+    width: 35%;
+}
+
+.content-box img {
+    width: 35%;
+    margin: 3.5%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.content-box .side-text {
+    width: 56%;
+}
+
+.content-box a {
+    color: #FF7954;
+    padding: 0;
+}
+
+.thesis .main-pic-box {
+    padding: 1rem 1rem 1.5rem 1.5rem;
+}
