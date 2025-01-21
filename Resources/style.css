@@ -215,3 +215,40 @@ nav {
 .thesis .main-pic-box {
     padding: 1rem 1rem 1.5rem 1.5rem;
 }
+
+/*Courses section*/
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.course-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.course-box {
+    width: 30%;
+    height: auto;
+    margin: 0 0.5rem 1rem 0.5rem;
+    background-color: #ADBED3;
+}
+
+.courses h2, .thesis h2 {
+    text-align: center;
+}
+
+.course-box img {
+    width: 100%;
+}
+
+.course-text {
+    padding: 1rem 0 0 1rem;
+    margin: 1.5rem auto;
+}
